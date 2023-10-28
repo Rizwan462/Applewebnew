@@ -1,35 +1,255 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
+   
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    
 }
-#navbar{
-    background-color:#000000CC;
-}
-#navbar>ul>li{
-    list-style-type: none;
-    padding: 10px;
-    justify-content: space-around;
-    margin-inline: 15px;
+
+#navbar {
+    background-color: #000000CC;
 
 }
-#navbar>ul>li>a{
+
+#nav0 {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#navbar>div>ul>li {
+    list-style-type: none;
+    padding: 5px;
+    justify-content: space-around;
+    margin-inline: 10px;
+
+}
+
+#navbar>div>ul>li>a {
     color: white;
     text-decoration: none;
 }
 
-#navbar>ul{
+#navbar>div>ul {
     display: flex;
-    
-       
+
+
 }
-#navbar{
+
+#navbar {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding: 10px;
     align-items: center;
+
+}
+
+#section-0 {
+    width: 100%;
+    background-color: #FBFBFD;
+    display: flex;
+    justify-content: center;
+}
+
+#section-1 {
+    width: 90%;
+    display: flex;
+    align-items: top;
+    justify-content: space-around;
+    margin-top: 5px;
+
+}
+
+#section-1>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+
+}
+
+#herosection-1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    padding: 10px;
+}
+
+#herosection-1>div>h1 {
+    color-scheme: rgba(44, 162, 180, 1);
+
+
+}
+
+#new {
+    color: #6E6E73;
+}
+
+#herosection-1>div>button {
+    background-color: #0071E3;
+    border: none;
+    font-size: 17px;
+    padding: 5px;
+    color: white;
+    align-items: center;
+    width: 61px;
+    border-radius: 980px;
+    padding-bottom: 7px;
+    margin-right: 20px;
+
+}
+
+#herosection-1>div>a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#herosection-1>div>img {
+    margin-top: 50px;
+}
+
+.hero2 {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+}
+
+.hero2>div>h1 {
+    color: #B344FF;
+
+}
+
+.hero2>div>div>button {
+    background-color: #0071E3;
+    border: none;
+    font-size: 17px;
+    padding: 5px;
+    color: white;
+    align-items: center;
+    width: 61px;
+    border-radius: 980px;
+    padding-bottom: 7px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+.hero2>div>div>a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#hero>div>p {
+    max-lines: 1px;
+}
+
+#hero3 {
+    display: flex;
+    flex-wrap: wrap;
     
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    padding-inline: 70px;
+    background-color: #FBFBFD;
+}
+
+#hero3>div>div>button {
+    background-color: #0071E3;
+    border: none;
+    font-size: 17px;
+    padding: 5px;
+    color: white;
+    align-items: center;
+    width: 61px;
+    margin-right: 20px;
+    border-radius: 980px;
+    padding-bottom: 7px;
+}
+
+#hero3>div>h1 {
+    color: #1E3791;
+    font-weight: 1200px;
+
+}
+
+#hero3>div>div>a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#image-1 {
+    background-image:
+        url("assets/figure5.png");
+    background-repeat: no-repeat;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-items: baseline;
+    color: white;
+
+}
+
+#image-2>button {
+    color: black;
+    background-color: white;
+    border: none;
+    padding: 5px;
+    padding-inline: 15px;
+    border-radius: 980px
+}
+
+#image-2 {
+    margin-top: 23%;
+    margin-left: 18%;
+    margin-bottom: 30%;
+}
+
+#hero4>img{
+    margin-bottom: 20px;
+}
+#hero4>button{
+    background-color: #0071E3;
+    color: white;
+    border-radius: 15px;
+    padding: 2px;
+    padding-inline: 15px;
+    border: none;
+    margin-bottom: 12px;
+}
+#hero4>h5{
+    margin-bottom: 40px;
+}
+#hero4>a{
+    text-decoration: none;
+    color: #0066CC;
+    font-weight: 600;
+}
+#herohead>h1{
+    margin-bottom: 40px;
+    font-weight: 900px;
+    font-size: 50px;
+}
+#headitems{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    margin-inline: 60px;
+}
+#sem{
+    width: 120px;
+    height: 25px;
 }
 
